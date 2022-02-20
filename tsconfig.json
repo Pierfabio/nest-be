@@ -1,11 +1,15 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist",
-      "rootDir": "./src" ,
-      /* Experimental Options */
-      "experimentalDecorators": true, 
-      "emitDecoratorMetadata": true, 
-      /* Advanced Options */
-      "forceConsistentCasingInFileNames": true 
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true
   }
+}
