@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { UserService } from './service/user.service';
-import { UserController } from './controller/user.controller';
+import { UserService } from './user/user.service';
+import { UserController } from './user/user.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { User, UserSchema } from './schemas/user';
+import { User, UserSchema } from './user/schemas/user';
 
 @Module({
   imports: [MongooseModule.forRoot('mongodb://localhost/nest-be')],
